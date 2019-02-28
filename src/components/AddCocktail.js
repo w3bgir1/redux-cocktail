@@ -11,19 +11,19 @@ class Form extends Component {
         return (
             <form onSubmit={handleSubmit(submit)}>
                 Name:
-                <Field name="title" component="input" type="text"/>
+                <Field name="drink" component="input" type="text"/>
                 Category
-                <Field name="text" component="input" type="text"/>
+                <Field name="category" component="input" type="text"/>
                 Alcoholic:
-                <Field name="text" component="input" type="text"/>
+                <Field name="alcoholic" component="input" type="text"/>
                 Glass:
-                <Field name="text" component="input" type="text"/>
+                <Field name="glass" component="input" type="text"/>
                 Instructions:
-                <Field name="text" component="input" type="text"/>
+                <Field name="instructions" component="input" type="text"/>
                 Image URL:
-                <Field name="text" component="input" type="text"/>
+                <Field name="thumbnail" component="input" type="text"/>
                 Ingredients:
-                <Field name="text" component="input" type="text"/>
+                <Field name="ingredient-name" component="input" type="text"/>
                 <div>
                     <button type="button" onClick={reset}>Clear form</button>
                     <button type="submit">Submit</button>
