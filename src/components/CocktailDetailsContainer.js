@@ -5,6 +5,7 @@ import CocktailDetails from './CocktailDetails'
 class CocktailDetailsContainer extends React.Component {
     
   render() {
+  
     if (!this.props) return null
     return <CocktailDetails props={this.props} />
   }
